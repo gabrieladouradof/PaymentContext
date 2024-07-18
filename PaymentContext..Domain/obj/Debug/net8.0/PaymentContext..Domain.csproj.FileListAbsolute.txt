@@ -1,0 +1,15 @@
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.AssemblyInfoInputs.cache
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.AssemblyInfo.cs
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.csproj.CoreCompileInputs.cache
+C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Domain.deps.json
+C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Domain.dll
+C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Domain.pdb
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.dll
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\refint\PaymentContext..Domain.dll
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.pdb
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\ref\PaymentContext..Domain.dll
+C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Shared.dll
+C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Shared.pdb
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.csproj.AssemblyReference.cache
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentC.93E27C1A.Up2Date
