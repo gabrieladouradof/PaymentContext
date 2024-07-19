@@ -1,3 +1,6 @@
+using System.Reflection.Metadata;
+using PaymentContext.Domain.ValueObjects;
+
 namespace PaymentContext.Domain.Entities 
 {
     public class CreditCardPayment : Payment
@@ -11,8 +14,8 @@ namespace PaymentContext.Domain.Entities
             decimal total, 
             decimal totalPaid, 
             string payer, 
-            string document,
-            string adress, string email): base(
+            Document document,
+            string adress, Email email): base(
             paidDate,
             expireDate,
             total, 

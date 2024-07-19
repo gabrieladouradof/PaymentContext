@@ -13,3 +13,4 @@ C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Sh
 C:\dev\PaymentContext\PaymentContext..Domain\bin\Debug\net8.0\PaymentContext..Shared.pdb
 C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.csproj.AssemblyReference.cache
 C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentC.93E27C1A.Up2Date
+C:\dev\PaymentContext\PaymentContext..Domain\obj\Debug\net8.0\PaymentContext..Domain.sourcelink.json
