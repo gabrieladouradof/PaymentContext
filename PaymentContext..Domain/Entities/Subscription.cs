@@ -1,3 +1,5 @@
+using System.Diagnostics.Contracts;
+
 namespace PaymentContext.Domain.Entities
 {
     public class Subscription 
@@ -20,7 +22,10 @@ namespace PaymentContext.Domain.Entities
 
         public void AddPayment(Payment payment)
         {
-            _payments.Add(payment);
+            AddNotification(new Contract()
+                .Requires
+                .IsGreaterThan(DateTime.Now, payment,PaidDate, "Subscription.Payments", "A data do ")
+            );
         }
 
         public void Activate()

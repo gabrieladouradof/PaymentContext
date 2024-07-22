@@ -10,6 +10,18 @@
         "runtime": {
           "lib/netstandard2.0/Flunt.dll": {}
         }
+      },
+      "Flunt.Br/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Flunt": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Flunt.Br.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.Br.dll": {}
+        }
       }
     }
   },
@@ -26,10 +38,24 @@
         "icon.png",
         "lib/netstandard2.0/Flunt.dll"
       ]
+    },
+    "Flunt.Br/2.0.0": {
+      "sha512": "OdURuAJ00wbtbRFbg32hJSx3ZENibuwQ7ayTzaI/oeMWtTQBjr3zhfb/bSipPDsIIK/sMoxdbmZzh3j7bcGyjQ==",
+      "type": "package",
+      "path": "flunt.br/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt-icon-br_compressed.png",
+        "flunt.br.2.0.0.nupkg.sha512",
+        "flunt.br.nuspec",
+        "lib/netstandard2.0/Flunt.Br.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Flunt.Br >= 2.0.0",
       "flunt >= 2.0.5"
     ]
   },
@@ -77,6 +103,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Flunt.Br": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "flunt": {
             "target": "Package",
             "version": "[2.0.5, )"

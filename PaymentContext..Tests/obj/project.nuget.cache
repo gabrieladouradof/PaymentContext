@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sSgu7m0GE6esrZrgpsBNOIE7tOouBzZrsh6tM1q2x99nUPAjxFrPdwU7a1qZcHJLcJBrpCSS1Ox0evoAS2oUlA==",
+  "dgSpecHash": "LZgoUl81htMfs2hL8C7f7YL2hBLmDggD59lTFy3bibEn8F0OYWS/LTka4xfGH49EwmEdMguTwSSFnvNf5ie/pg==",
   "success": true,
   "projectFilePath": "C:\\dev\\PaymentContext\\PaymentContext..Tests\\PaymentContext..Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\GabrielaDourado\\.nuget\\packages\\flunt.br\\2.0.0\\flunt.br.2.0.0.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\GabrielaDourado\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",

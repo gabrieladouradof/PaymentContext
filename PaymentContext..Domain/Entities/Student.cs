@@ -29,9 +29,7 @@ namespace PaymentContext.Domain.Entities
         
         public void AddSubscription(Subscription subscription)
         {
-            //implementando validacoes
-            //if (true)
-             //   throw 
+            var hasSubscriptionActive = false;
 
 
             //se ja tiver assinatura ativa, cancela
