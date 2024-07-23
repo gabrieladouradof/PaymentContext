@@ -4,6 +4,7 @@ using Flunt.Notifications;
 using Flunt.Validations;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Shared.Commands;
+using ICommand = PaymentContext.Shared.Commands.ICommand;
 
 namespace PaymentContext.Domain.Commands
 {
