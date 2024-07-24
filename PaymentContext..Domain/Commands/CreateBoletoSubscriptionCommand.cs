@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Input;
+using Flunt.Br;
 using Flunt.Notifications;
 using Flunt.Validations;
 using PaymentContext.Domain.Enums;
@@ -8,7 +9,8 @@ using ICommand = PaymentContext.Shared.Commands.ICommand;
 
 namespace PaymentContext.Domain.Commands
 {
-    public class CreateBoletoSubscriptionCommand : Notifiable, ICommand
+    public class CreateBoletoSubscriptionCommand : Notifiable<Notification>, ICommand
+
     {
         public string? FirstName { get; set; }
         public string? LastName { get; set; }

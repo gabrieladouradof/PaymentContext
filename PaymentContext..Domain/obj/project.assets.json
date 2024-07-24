@@ -75,7 +75,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Flunt >= 2.0.5",
-      "Flunt.Br >= 2.0.0",
       "PaymentContext..Shared >= 1.0.0"
     ]
   },
@@ -130,10 +129,6 @@
           "Flunt": {
             "target": "Package",
             "version": "[2.0.5, )"
-          },
-          "Flunt.Br": {
-            "target": "Package",
-            "version": "[2.0.0, )"
           }
         },
         "imports": [

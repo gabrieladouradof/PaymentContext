@@ -4,7 +4,8 @@ using PaymentContext.Shared.Entities;
 using Flunt.Validations;
 using Flunt.Notifications;
 using System;
-using Document = PaymentContext.Domain.ValueObjects.Document;
+using Flunt.Br;
+using Document = System.Reflection.Metadata.Document;
 
 namespace PaymentContext.Domain.Entities 
 {
@@ -23,10 +24,12 @@ namespace PaymentContext.Domain.Entities
             Adress = adress;
             Email = email;
 
+           //herdei o notifiable na classe padrao entity pra corrigir o bug
+
             AddNotifications(new Contract()
                 .Requires()
                 .IsLowerOrEqualsThan(0, Total, "Payment.Total", "O total nao pode ser zero")
-                .IsGreaterOrEqualThan(Total, TotalPaid, "Payment.TotalPaid", "O valor pago é menor que o valor do pagamento")
+                .IsGreaterOrEqualsThan(Total, TotalPaid, "Payment.TotalPaid", "O valor pago é menor que o valor do pagamento")
             );
         }
 
@@ -36,7 +39,7 @@ namespace PaymentContext.Domain.Entities
         public decimal Total { get; private set; }
         public decimal TotalPaid { get; private set; }
         public string? Payer {get; private set;}
-        public Document document { get; private set;}
+        public Document Document { get; private set; }
         public Adress Adress { get; private set;}
         public Email Email { get; private set; }
     }
